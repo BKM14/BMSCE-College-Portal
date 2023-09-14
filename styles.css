@@ -1,0 +1,220 @@
+ body {
+    color: white;
+    background-image: url('./Images/bmsce.jpg');
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top 50px;
+    margin: 0;
+    font-family: 'Kanit', 'sans-serif';
+ }
+
+.about {
+    background-image: url('./Images/bg2.jpg');
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top 50px;
+    font-family: 'Kanit', 'sans-serif';
+    font-size: 15px;
+    color: black;
+ }
+ 
+ ul {
+    list-style-type: square;
+ }
+
+ a {
+    text-decoration: none;
+    color: white;
+}
+
+.Logo {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.navbar {
+    
+    padding: 0;
+    background-color: black;
+    height: 50px;
+}
+
+.home {
+    padding-left: 5px;
+}
+
+#logo{
+    position: absolute;
+    height: 40px;
+    width: auto;
+    left: 245px;
+    top: 5px;
+}
+
+.links {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+
+img {
+    display: inline-block;
+    width: auto;
+    height: 470px;
+}
+
+
+.links a {
+    border: 1px solid white;
+    background-color: black;
+    padding: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+hr {
+    height: 4px;
+    background-color: rgb(7, 177, 7);
+}
+
+.ending {
+    width: 450px;
+    height: 60px;
+    position: absolute;
+    right: 30px;
+    top: 490px;
+    border: 3px solid rgb(7, 177, 7);
+    border-radius: 10px;
+    padding: 1px;
+    text-align: center;
+}
+
+.about1 {
+    color: black;
+    width: 600px;
+    height: 550px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 4px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.about2 {
+    margin-top: -560px;
+    margin-left: 650px;
+    padding: 2px;
+    width: 550px;
+    height: 450px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: black;
+    /* background-color: rgb(182, 213, 240); */
+}
+
+.about3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.about4 {
+    padding-left: 5px;
+}
+
+.academics {
+    background-image: url("./Images/bg3.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top 50px;
+    color: black;
+}
+
+.academics h1 {
+    text-align: center;
+}
+
+.academics2 {
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    width: 400px; 
+    padding: 10px;
+    margin-left: 420px;
+} 
+
+.academics2 select {
+    appearance: none;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    width: 300px;
+    background-image: url(./Images/dropdown.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.stdlogin {
+    background-image: url(./Images/bg4.jpg);
+}
+
+#signUp {
+    color: red;
+}
+
+.student1 {
+    text-align: center;
+    color: black;
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    border: 4px solid rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 40px;
+}
+
+.student1 span {
+    color: navy;
+}
+
+.admin {
+    background-image: url("./Images/bg5.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top 50px;
+}
+
+.admin1 {
+    text-align: center;
+    color: black;
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    border: 4px solid rgb(6, 8, 6);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.admin1 span {
+    color: navy;
+}
+
+.welcome {
+    color: #ece80f;
+    font-size: 30px;
+    margin-left: 425px;
+    margin-top: 250px;
+    font-weight: 900;
+}
+
+.stdrgstr {
+    background-image: url(./Images/bg6.jpg);
+    color: black;
+}

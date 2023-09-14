@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script type="text/javascript" src="./script.js"></script>
+        <link rel="stylesheet" href="./styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&display=swap" rel="stylesheet">
+    </head>
+    <body class="admin">
+        <div class="navbar">
+            <div class="home">
+                <a href="./index.html" class="Logo">B.M.S College of Engineering<br>Established in 1946<br></a>
+                <img src="./Images/bmsceLogo.png" alt="BMSCE Logo" id="logo">
+            </div>
+            <div class="links">
+                <a href="./aboutUs.html">About Us</a>
+                <a href="./academics.html">Academics</a>
+                <a href="./studentLogin.html">Student Login</a>
+                <a href="./adminLogin.html">Admin Login</a>    
+            </div>
+        </div>
+        <div class="admin1">
+            <h1>Welcome to the <span>BMSCE</span> admin portal</h1>
+            <form id="adminLogin" method="post">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Username">
+                <br><br>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Password">
+                <br><br>
+                <button type="button" onclick="processAdminLogin()">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>

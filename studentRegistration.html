@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <script type="text/javascript" src="./script.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+<body class="stdrgstr">
+    <div class="navbar">
+        <div class="home">
+            <a href="./index.html" class="Logo">B.M.S College of Engineering<br>Established in 1946<br></a>
+            <img src="./Images/bmsceLogo.png" alt="BMSCE Logo" id="logo">
+        </div>
+        <div class="links">
+            <a href="./aboutUs.html">About Us</a>
+            <a href="./academics.html">Academics</a>
+            <a href="./studentLogin.html">Student Login</a>
+            <a href="./adminLogin.html">Admin Login</a>    
+        </div>
+    </div>
+    <h1>Welcome to BMSCE! Have a great journey</h1>
+    <form id="studentRegistration" name="studentRegistration" method="post" align="center">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="First Name">
+        <br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" placeholder="Last Name">
+        <br>
+        <label for="fatherName">Father's Name</label>
+        <input type="text" id="fatherName" name="fatherName" placeholder="Father's Name">
+        <br>
+        <label for="motherName">Mother's Name</label>
+        <input type="text" id="motherName" name="motherName" placeholder="Mother's Name">
+        <br>
+        <label for="birthDate">Date of Birth</label>
+        <input type="date" id="birthDate" name="birthDate">
+        <br>
+        <label for="email">Email Id</label>
+        <input type="email" id="email" name="email" placeholder="Email">
+        <br>
+        <label for="number">Mobile Number</label>
+        <input type="number" id="number" name="mobile" placeholder="Mobile Number" maxlength="10" minlength="10">
+        <br>
+        <label for="10percentage">Aggregate Score of 10th Standard</label>
+        <input type="text" id="10percentage" name="10percentage" placeholder="10th Marks">
+        <br>
+        <label for="12percentage">Aggregate Score of 12th Standard</label>
+        <input type="text" id="12percentage" name="12percentage" placeholder="12th Marks">
+        <br>
+        <label for="userName">Enter Username</label>
+        <input type="text" id="userName" name="userName" placeholder="Username">
+        <br>
+        <label for="passWord">Password</label>
+        <input type="password" id="passWord" name="password" placeholder="Enter a password">
+        <br>
+        <label for="confirmpassWord">Confirm Password</label>
+        <input type="password" id="confirmpassWord" name="confirmpassWord" placeholder="Enter password again">
+        <br><br>
+        <button type="button" onclick="studentRegisterProcess()">Register</button>
+    </form>
+</body>
+</html>

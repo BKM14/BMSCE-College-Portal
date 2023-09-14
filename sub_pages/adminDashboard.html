@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Admin Dashboard</title>
+        <link rel="stylesheet" href="./style_sub.css">
+        <script type="text/javascript" src="../script.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="home">
+                <a href="../index.html" class="Logo">B.M.S College of Engineering<br>Established in 1946<br></a>
+                <img src="../Images/bmsceLogo.png" alt="BMSCE Logo" id="logo">
+            </div>
+            <div class="links">
+                <a href="../adminLogin.html">Sign Out</a>   
+            </div>
+        </div>
+        <div class="adminDash">
+            <h3>Choose the student whose details need to be changed: </h3>
+            <select name="studentChoice" id="studentChoice">
+                <option value="--select student--" selected>--select student--</option>
+                <option value="student1">Student 1</option>
+                <option value="student2">Student 2</option>
+                <option value="student3">Student 3</option>
+            </select>
+            <select name="fieldChoice" id="fieldChoice">
+                <option value="--select field--">--select field--</option>
+                <option value="fname">First Name</option>
+                <option value="lname">Last Name</option>
+                <option value="fatherName">Father's name</option>
+                <option value="motherName">Mother's name</option>
+                <option value="dob">Date of birth</option>
+                <option value="email">Email</option>
+                <option value="mobile">Mobile</option>
+                <option value="marks10">10th Marks</option>
+                <option value="marks12">12th Marks</option>
+                <option value="username">Username</option>
+                <option value="password">Password</option>
+            </select>
+            <button value="Submit" onclick="updateStudent()">Submit</button>
+        </div>
+    </body>
+</html>
